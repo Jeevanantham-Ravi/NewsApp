@@ -53,7 +53,7 @@ fun DetailsScreen(
                 }
             }
         }, onBackClick = {
-            navigateUp
+            navigateUp()
         }, onBookmarkClick = {
             event(DetailsEvent.UpsertDeleteArticle(article))
         })
